@@ -55,14 +55,14 @@ libcurl4-openssl-dev uuid-dev icu-devtools libicu-dev
 ### Fedora
 
 ```sh
-sudo dnf install openssl-devel readline-devel zlib-devel libcurl-devel uuid-devel libuuid-devel
+sudo dnf install openssl-devel readline-devel zlib-devel libcurl-devel uuid-devel libuuid-devel 
 ```
 
 ### (open)SUSE
 
 ```sh
 sudo zypper install -t pattern devel_basis
-sudo zypper in openssl-devel readline-devel zlib-devel libcurl-devel uuid-devel libuuid-devel
+sudo zypper in openssl-devel readline-devel zlib-devel libcurl-devel uuid-devel libuuid-devel icu libicu-devel
 ```
 
 ## Install
